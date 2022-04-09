@@ -23,7 +23,7 @@ $cur_position = $header_height;
 
 // データの印字
 $_POST["query"] = <<<QUERY
-select 社員コード,氏名,フリガナ from 社員マスタ
+select 社員コード,氏名,フリガナ from 社員マスタ order by 社員コード
 QUERY;
 
 // クエリーの実行
